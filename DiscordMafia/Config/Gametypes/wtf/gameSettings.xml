@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <Settings>
+  <IsYakuzaEnabled>True</IsYakuzaEnabled>
+  <MafPercent>34</MafPercent>
   <MinPlayers>3</MinPlayers>
 </Settings>
