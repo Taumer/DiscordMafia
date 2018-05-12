@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Item>
+    <string>Mask</string>
+    <Info>
+      <Name>Мантия патриция</Name>
+      <NameCases>
+        <string>Мантия патриция</string>
+        <string>Мантиюя патриция</string>
+        <string>Мантии патриция</string>
+        <string>Мантию патриция</string>
+        <string>Мантией патриция</string>
+        <string>Мантии патриция</string>
+      </NameCases>
+      <Description>Покупая мантию патриция, игрок сливается с темнотой и в ближайшую ночь становится словно невидим для всех персонажей. Т.е. маф не убьет, комиссар не проверит, белошвейка не заблокирует. Можно купить только 1 раз за игру.</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>AntiMask</string>
+    <Info>
+      <Name>Волшебный шар</Name>
+      <NameCases>
+        <string>Волшебный шар</string>
+        <string>Волшебного шара</string>
+        <string>Волшебному шару</string>
+        <string>Волшебный шар</string>
+        <string>Волшебным шаром</string>
+        <string>Волшебном шаре</string>
+      </NameCases>
+      <Description>Покупая волшебный шар, игрок в ближайшую ночь получает способность видеть и действовать сквозь маски. Таким образом, ПНВ является контрпредметом маске.</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>Antidote</string>
+    <Info>
+      <Name>Зелье здоровья</Name>
+      <NameCases>
+        <string>Зелье здоровья</string>
+        <string>Зелья здоровья</string>
+        <string>Зелью здоровья</string>
+        <string>Зелье здоровья</string>
+        <string>Зельем здоровья</string>
+        <string>Зелье здоровья</string>
+      </NameCases>
+      <Description>Покупая зелье здоровья, игрок в ближайшую ночь снимает с себя все эффекты, ведущие к отложенной смерти (например, болезнь белошвейки или отравление отравителя).</Description>
+    </Info>
+  </Item>
+</Messages>
