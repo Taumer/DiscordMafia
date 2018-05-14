@@ -37,7 +37,7 @@
   </Role>
   <Role Id="Mirror">
     <IsEnabled>true</IsEnabled>
-    <IsRandom>true</IsRandom>
+    <IsRandom>false</IsRandom>
     <MinPlayers>8</MinPlayers>
   </Role>
 </Roles>
