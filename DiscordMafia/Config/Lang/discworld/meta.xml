@@ -2,4 +2,5 @@
 <Meta>
   <FullName>Discworld</FullName>
   <LocalName>Плоский Мир</LocalName>
+  <BasedOn>ru</BasedOn>
 </Meta>
