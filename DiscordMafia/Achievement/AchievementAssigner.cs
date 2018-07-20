@@ -135,9 +135,14 @@ namespace DiscordMafia.Achievement
 
         private void CheckGameType(InGamePlayerInfo player)
         {
-            if (player.Game.GameMode == "sw")
+            switch (player.Game.GameMode)
             {
-                _manager.Push(player.User, Achievement.IdLostInStars);
+                case "sw":
+                    _manager.Push(player.User, Achievement.IdLostInStars);
+                    break;
+                case "dw":
+                    _manager.Push(player.User, Achievement.IdCatsAreGood);
+                    break;
             }
         }
 

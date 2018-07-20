@@ -52,6 +52,7 @@ namespace DiscordMafia.Achievement
                 new Achievement { Id = Achievement.IdPlayWithDeveloper, Icon = "\U00002601" },
                 new Achievement { Id = Achievement.IdWenchBlock, Icon = "\U0001F6D1" },
                 new Achievement { Id = Achievement.IdLostInStars, Icon = "\U00002B50" },
+                new Achievement { Id = Achievement.IdCatsAreGood, Icon = "\U0001F431" }
             };
             foreach (var achievement in achievementsToRegister)
             {

@@ -36,6 +36,7 @@
 
         // Secret achievements
         public const string IdLostInStars = "lostInStars";
+        public const string IdCatsAreGood = "catsAreGood";
 
         public string Id
         {

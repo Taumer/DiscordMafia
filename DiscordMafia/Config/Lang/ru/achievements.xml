@@ -175,4 +175,11 @@
       <Description>???</Description>
     </Info>
   </Item>
+  <Item>
+    <string>catsAreGood</string>
+    <Info>
+      <Name>КОШКИ ЭТО ХОРОШО</Name>
+      <Description>???</Description>
+    </Info>
+  </Item>
 </Messages>
