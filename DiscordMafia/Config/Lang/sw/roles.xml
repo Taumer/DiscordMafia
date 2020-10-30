@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Item>
+    <string>Citizen</string>
+    <Info>
+      <Name>Повстанец</Name>
+      <NameCases>
+        <string>повстанец</string>
+        <string>повстанца</string>
+        <string>повстанцу</string>
+        <string>повстанца</string>
+        <string>повстанцем</string>
+        <string>повстанце</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Эвок</Name>
+          <NameCases>
+            <string>эвок</string>
+            <string>эвока</string>
+            <string>эвоку</string>
+            <string>эвока</string>
+            <string>эвоком</string>
+            <string>эвоке</string>
+          </NameCases>
+          <ImagePath>roles/cardEwok.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>C3PO</Name>
+          <NameCases>
+            <string>C3PO</string>
+            <string>C3PO</string>
+            <string>C3PO</string>
+            <string>C3PO</string>
+            <string>C3PO</string>
+            <string>C3PO</string>
+          </NameCases>
+          <ImagePath>roles/cardC3po.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>Повстанец</Name>
+          <NameCases>
+            <string>повстанец</string>
+            <string>повстанца</string>
+            <string>повстанцу</string>
+            <string>повстанца</string>
+            <string>повстанцем</string>
+            <string>повстанце</string>
+          </NameCases>
+          <ImagePath>roles/rebel2.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>Повстанец</Name>
+          <NameCases>
+            <string>повстанец</string>
+            <string>повстанца</string>
+            <string>повстанцу</string>
+            <string>повстанца</string>
+            <string>повстанцем</string>
+            <string>повстанце</string>
+          </NameCases>
+          <ImagePath>roles/rebel3.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>Повстанец</Name>
+          <NameCases>
+            <string>повстанец</string>
+            <string>повстанца</string>
+            <string>повстанцу</string>
+            <string>повстанца</string>
+            <string>повстанцем</string>
+            <string>повстанце</string>
+          </NameCases>
+          <ImagePath>roles/rebel4.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Commissioner</string>
+    <Info>
+      <Name>Мейс Винду</Name>
+      <NameCases>
+        <string>Мейс Винду</string>
+        <string>Мейса Винду</string>
+        <string>Мейсу Винду</string>
+        <string>Мейса Винду</string>
+        <string>Мейсом Винду</string>
+        <string>Мейсе Винду</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Мейс Винду</Name>
+          <NameCases>
+            <string>Мейс Винду</string>
+            <string>Мейса Винду</string>
+            <string>Мейсу Винду</string>
+            <string>Мейса Винду</string>
+            <string>Мейсом Винду</string>
+            <string>Мейсе Винду</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Мейс Винду</Name>
+          <NameCases>
+            <string>Мейс Винду</string>
+            <string>Мейса Винду</string>
+            <string>Мейсу Винду</string>
+            <string>Мейса Винду</string>
+            <string>Мейсом Винду</string>
+            <string>Мейсе Винду</string>
+          </NameCases>
+          <ImagePath>roles/cardCommissioner2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Doctor</string>
+    <Info>
+      <Name>Медицинский дроид</Name>
+      <NameCases>
+        <string>медицинский дроид</string>
+        <string>медицинского дроида</string>
+        <string>медицинскому дроиду</string>
+        <string>медицинского дроида</string>
+        <string>медицинским дроидом</string>
+        <string>медицинском дроиде</string>
+      </NameCases>
+    </Info>
+  </Item>
+  <Item>
+    <string>Elder</string>
+    <Info>
+      <Name>Магистр Йода</Name>
+      <NameCases>
+        <string>магистр Йода</string>
+        <string>магистра Йоды</string>
+        <string>магистру Йоде</string>
+        <string>магистра Йоду</string>
+        <string>магистром Йодой</string>
+        <string>магистре Йоде</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Магистр Йода</Name>
+          <NameCases>
+            <string>магистр Йода</string>
+            <string>магистра Йоды</string>
+            <string>магистру Йоде</string>
+            <string>магистра Йоду</string>
+            <string>магистром Йодой</string>
+            <string>магистре Йоде</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Магистр Йода</Name>
+          <NameCases>
+            <string>магистр Йода</string>
+            <string>магистра Йоды</string>
+            <string>магистру Йоде</string>
+            <string>магистра Йоду</string>
+            <string>магистром Йодой</string>
+            <string>магистре Йоде</string>
+          </NameCases>
+          <ImagePath>roles/cardYoda.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Highlander</string>
+    <Info>
+      <Name>Оби-Ван Кеноби</Name>
+      <NameCases>
+        <string>Оби-Ван Кеноби</string>
+        <string>Оби-Вана Кеноби</string>
+        <string>Оби-Вану Кеноби</string>
+        <string>Оби-Вана Кеноби</string>
+        <string>Оби-Ваном Кеноби</string>
+        <string>Оби-Ване Кеноби</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Оби-Ван Кеноби</Name>
+          <NameCases>
+            <string>Оби-Ван Кеноби</string>
+            <string>Оби-Вана Кеноби</string>
+            <string>Оби-Вану Кеноби</string>
+            <string>Оби-Вана Кеноби</string>
+            <string>Оби-Ваном Кеноби</string>
+            <string>Оби-Ване Кеноби</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Оби-Ван Кеноби</Name>
+          <NameCases>
+            <string>Оби-Ван Кеноби</string>
+            <string>Оби-Вана Кеноби</string>
+            <string>Оби-Вану Кеноби</string>
+            <string>Оби-Вана Кеноби</string>
+            <string>Оби-Ваном Кеноби</string>
+            <string>Оби-Ване Кеноби</string>
+          </NameCases>
+          <ImagePath>roles/cardHighlander2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Homeless</string>
+    <Info>
+      <Name>Рей</Name>
+      <NameCases>
+        <string>Рей</string>
+        <string>Рей</string>
+        <string>Рей</string>
+        <string>Рей</string>
+        <string>Рей</string>
+        <string>Рей</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Рей</Name>
+          <NameCases>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Рей</Name>
+          <NameCases>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+            <string>Рей</string>
+          </NameCases>
+          <ImagePath>roles/cardHomeless2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Judge</string>
+    <Info>
+      <Name>Падме Амидала</Name>
+      <NameCases>
+        <string>Падме Амидала</string>
+        <string>Падме Амидалы</string>
+        <string>Падме Амидале</string>
+        <string>Падме Амидалу</string>
+        <string>Падме Амидалой</string>
+        <string>Падме Амидале</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Падме Амидала</Name>
+          <NameCases>
+            <string>Падме Амидала</string>
+            <string>Падме Амидалы</string>
+            <string>Падме Амидале</string>
+            <string>Падме Амидалу</string>
+            <string>Падме Амидалой</string>
+            <string>Падме Амидале</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Падме Амидала</Name>
+          <NameCases>
+            <string>Падме Амидала</string>
+            <string>Падме Амидалы</string>
+            <string>Падме Амидале</string>
+            <string>Падме Амидалу</string>
+            <string>Падме Амидалой</string>
+            <string>Падме Амидале</string>
+          </NameCases>
+          <ImagePath>roles/cardJudge2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Mirror</string>
+    <Info>
+      <Name>R2D2</Name>
+      <NameCases>
+        <string>R2D2</string>
+        <string>R2D2</string>
+        <string>R2D2</string>
+        <string>R2D2</string>
+        <string>R2D2</string>
+        <string>R2D2</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>R2D2</Name>
+          <NameCases>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>R2D2</Name>
+          <NameCases>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <string>R2D2</string>
+            <ImagePath>roles/cardMirror2.png</ImagePath>
+          </NameCases>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Prosecutor</string>
+    <Info>
+      <Name>Люк Скайуокер</Name>
+      <NameCases>
+        <string>Люк Скайуокер</string>
+        <string>Люка Скайуокера</string>
+        <string>Люку Скайуокеру</string>
+        <string>Люка Скайуокера</string>
+        <string>Люком Скайуокером</string>
+        <string>Люке Скайуокере</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Люк Скайуокер</Name>
+          <NameCases>
+            <string>Люк Скайуокер</string>
+            <string>Люка Скайуокера</string>
+            <string>Люку Скайуокеру</string>
+            <string>Люка Скайуокера</string>
+            <string>Люком Скайуокером</string>
+            <string>Люке Скайуокере</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Люк Скайуокер</Name>
+          <NameCases>
+            <string>Люк Скайуокер</string>
+            <string>Люка Скайуокера</string>
+            <string>Люку Скайуокеру</string>
+            <string>Люка Скайуокера</string>
+            <string>Люком Скайуокером</string>
+            <string>Люке Скайуокере</string>
+          </NameCases>
+          <ImagePath>roles/cardProsecutor2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>RabbleRouser</string>
+    <Info>
+      <Name>Джа-Джа Бинкс</Name>
+      <NameCases>
+        <string>Джа-Джа Бинкс</string>
+        <string>Джа-Джа Бинкса</string>
+        <string>Джа-Джа Бинксу</string>
+        <string>Джа-Джа Бинкса</string>
+        <string>Джа-Джа Бинксом</string>
+        <string>Джа-Джа Бинксе</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Джа-Джа Бинкс</Name>
+          <NameCases>
+            <string>Джа-Джа Бинкс</string>
+            <string>Джа-Джа Бинкса</string>
+            <string>Джа-Джа Бинксу</string>
+            <string>Джа-Джа Бинкса</string>
+            <string>Джа-Джа Бинксом</string>
+            <string>Джа-Джа Бинксе</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Джа-Джа Бинкс</Name>
+          <NameCases>
+            <string>Джа-Джа Бинкс</string>
+            <string>Джа-Джа Бинкса</string>
+            <string>Джа-Джа Бинксу</string>
+            <string>Джа-Джа Бинкса</string>
+            <string>Джа-Джа Бинксом</string>
+            <string>Джа-Джа Бинксе</string>
+          </NameCases>
+          <ImagePath>roles/cardRabbleRouser2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Sheriff</string>
+    <Info>
+      <Name>Хан Соло</Name>
+      <NameCases>
+        <string>Хан Соло</string>
+        <string>Хана Соло</string>
+        <string>Хану Соло</string>
+        <string>Хана Соло</string>
+        <string>Ханом Соло</string>
+        <string>Хане Соло</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Хан Соло</Name>
+          <NameCases>
+            <string>Хан Соло</string>
+            <string>Хана Соло</string>
+            <string>Хану Соло</string>
+            <string>Хана Соло</string>
+            <string>Ханом Соло</string>
+            <string>Хане Соло</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Хан Соло</Name>
+          <NameCases>
+            <string>Хан Соло</string>
+            <string>Хана Соло</string>
+            <string>Хану Соло</string>
+            <string>Хана Соло</string>
+            <string>Ханом Соло</string>
+            <string>Хане Соло</string>
+          </NameCases>
+          <ImagePath>roles/cardHanSolo.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Spy</string>
+    <Info>
+      <Name>Кайл Катарн</Name>
+      <NameCases>
+        <string>Кайл Катарн</string>
+        <string>Кайла Катарна</string>
+        <string>Кайлу Катарну</string>
+        <string>Кайла Катарна</string>
+        <string>Кайлом Катарном</string>
+        <string>Кайле Катарне</string>
+      </NameCases>
+    </Info>
+  </Item>
+  <Item>
+    <string>Wench</string>
+    <Info>
+      <Name>Чубакка</Name>
+      <NameCases>
+        <string>Чубакка</string>
+        <string>Чубакки</string>
+        <string>Чубакке</string>
+        <string>Чубакку</string>
+        <string>Чубаккой</string>
+        <string>Чубакке</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Чуи</Name>
+          <NameCases>
+            <string>Чуи</string>
+            <string>Чуи</string>
+            <string>Чуи</string>
+            <string>Чуи</string>
+            <string>Чуи</string>
+            <string>Чуи</string>
+            <ImagePath>roles/cardWench2.png</ImagePath>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Чубакка</Name>
+          <NameCases>
+            <string>Чубакка</string>
+            <string>Чубакки</string>
+            <string>Чубакке</string>
+            <string>Чубакку</string>
+            <string>Чубаккой</string>
+            <string>Чубакке</string>
+          </NameCases>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Maniac</string>
+    <Info>
+      <Name>Лея Органа</Name>
+      <NameCases>
+        <string>Лея Органа</string>
+        <string>Леи Органы</string>
+        <string>Лее Органе</string>
+        <string>Лею Органу</string>
+        <string>Леей Органой</string>
+        <string>Лее Органе</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Лея Органа</Name>
+          <NameCases>
+            <string>Лея Органа</string>
+            <string>Леи Органы</string>
+            <string>Лее Органе</string>
+            <string>Лею Органу</string>
+            <string>Леей Органой</string>
+            <string>Лее Органе</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Лея Органа</Name>
+          <NameCases>
+            <string>Лея Органа</string>
+            <string>Леи Органы</string>
+            <string>Лее Органе</string>
+            <string>Лею Органу</string>
+            <string>Леей Органой</string>
+            <string>Лее Органе</string>
+          </NameCases>
+          <ImagePath>roles/cardManiac2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Demoman</string>
+    <Info>
+      <Name>Звезда Смерти</Name>
+      <NameCases>
+        <string>Звезда Смерти</string>
+        <string>Звезды Смерти</string>
+        <string>Звезде Смерти</string>
+        <string>Звезду Смерти</string>
+        <string>Звездой Смерти</string>
+        <string>Звезде Смерти</string>
+      </NameCases>
+    </Info>
+  </Item>
+  <Item>
+    <string>Hammerer</string>
+    <Info>
+      <Name>Мас Амедда</Name>
+      <NameCases>
+        <string>Мас Амедда</string>
+        <string>Мас Амедды</string>
+        <string>Мас Амедде</string>
+        <string>Мас Амедду</string>
+        <string>Мас Амеддой</string>
+        <string>Мас Амедде</string>
+      </NameCases>
+    </Info>
+  </Item>
+  <Item>
+    <string>Killer</string>
+    <Info>
+      <Name>Дарт Вейдер</Name>
+      <NameCases>
+        <string>Дарт Вейдер</string>
+        <string>Дарта Вейдера</string>
+        <string>Дарту Вейдеру</string>
+        <string>Дарта Вейдера</string>
+        <string>Дартом Вейдером</string>
+        <string>Дарте Вейдере</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Дарт Вейдер</Name>
+          <NameCases>
+            <string>Дарт Вейдер</string>
+            <string>Дарта Вейдера</string>
+            <string>Дарту Вейдеру</string>
+            <string>Дарта Вейдера</string>
+            <string>Дартом Вейдером</string>
+            <string>Дарте Вейдере</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Дарт Вейдер</Name>
+          <NameCases>
+            <string>Дарт Вейдер</string>
+            <string>Дарта Вейдера</string>
+            <string>Дарту Вейдеру</string>
+            <string>Дарта Вейдера</string>
+            <string>Дартом Вейдером</string>
+            <string>Дарте Вейдере</string>
+          </NameCases>
+          <ImagePath>roles/cardKiller2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Lawyer</string>
+    <Info>
+      <Name>Палпатин</Name>
+      <NameCases>
+        <string>Палпатин</string>
+        <string>Палпатина</string>
+        <string>Палпатину</string>
+        <string>Палпатина</string>
+        <string>Палпатином</string>
+        <string>Палпатине</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Палпатин</Name>
+          <NameCases>
+            <string>Палпатин</string>
+            <string>Палпатина</string>
+            <string>Палпатину</string>
+            <string>Палпатина</string>
+            <string>Палпатином</string>
+            <string>Палпатине</string>
+          </NameCases>
+        </Variant>
+        <Variant>
+          <Name>Палпатин</Name>
+          <NameCases>
+            <string>Палпатин</string>
+            <string>Палпатина</string>
+            <string>Палпатину</string>
+            <string>Палпатина</string>
+            <string>Палпатином</string>
+            <string>Палпатине</string>
+          </NameCases>
+          <ImagePath>roles/cardLawyer2.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+  <Item>
+    <string>Mafioso</string>
+    <Info>
+      <Name>Штурмовик</Name>
+      <NameCases>
+        <string>штурмовик</string>
+        <string>штурмовика</string>
+        <string>штурмовику</string>
+        <string>штурмовика</string>
+        <string>штурмовиком</string>
+        <string>штурмовике</string>
+      </NameCases>
+      <Variants>
+        <Variant>
+          <Name>Штурмовик</Name>
+          <NameCases>
+            <string>штурмовик</string>
+            <string>штурмовика</string>
+            <string>штурмовику</string>
+            <string>штурмовика</string>
+            <string>штурмовиком</string>
+            <string>штурмовике</string>
+          </NameCases>
+          <ImagePath>roles/stormtrooper1.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>Штурмовик</Name>
+          <NameCases>
+            <string>штурмовик</string>
+            <string>штурмовика</string>
+            <string>штурмовику</string>
+            <string>штурмовика</string>
+            <string>штурмовиком</string>
+            <string>штурмовике</string>
+          </NameCases>
+          <ImagePath>roles/stormtrooper2.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>Штурмовик</Name>
+          <NameCases>
+            <string>штурмовик</string>
+            <string>штурмовика</string>
+            <string>штурмовику</string>
+            <string>штурмовика</string>
+            <string>штурмовиком</string>
+            <string>штурмовике</string>
+          </NameCases>
+          <ImagePath>roles/stormtrooper3.png</ImagePath>
+        </Variant>
+        <Variant>
+          <Name>Штурмовик</Name>
+          <NameCases>
+            <string>штурмовик</string>
+            <string>штурмовика</string>
+            <string>штурмовику</string>
+            <string>штурмовика</string>
+            <string>штурмовиком</string>
+            <string>штурмовике</string>
+          </NameCases>
+          <ImagePath>roles/stormtrooper4.png</ImagePath>
+        </Variant>
+      </Variants>
+    </Info>
+  </Item>
+</Messages>

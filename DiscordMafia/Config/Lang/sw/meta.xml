@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <BasedOn>ru</BasedOn>
+  <FullName>Star Wars</FullName>
+  <LocalName>Star Wars</LocalName>
+  <IsEvent>true</IsEvent>
+  <GameType>sw</GameType>
+  <WelcomeMessages>
+    <Message>
+      <Content>:star: Давным-давно, в далекой-далекой галактике...</Content>
+      <Pause>120000</Pause>
+    </Message>
+    <Message>
+      <Content>:rocket: Повстанцы сражаются против Императора, что принес своим подданным лишь боль и страдания.</Content>
+      <Pause>5000</Pause>
+    </Message>
+    <Message>
+      <Content>:crossed_swords: Решаюшая битва близка, и в ней решится судьба всех известных миров.</Content>
+      <Pause>10000</Pause>
+    </Message>
+    <Message>
+      <Content>:yin_yang: На чью сторону встанете вы?</Content>
+      <Pause>5000</Pause>
+    </Message>
+  </WelcomeMessages>
+</Meta>

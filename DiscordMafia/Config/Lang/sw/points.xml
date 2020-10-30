@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Messages>
+  <Item>
+    <string>Win</string>
+    <Info>
+      <Description>За победу всем в победившей команде</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>WinAndSurvive</string>
+    <Info>
+      <Description>За победу всем выжившим в победившей команде (дополнительно к очкам за победу)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>Survive</string>
+    <Info>
+      <Description>За выживание всем выжившим в конце игры</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>Draw</string>
+    <Info>
+      <Description>За ничью всем выжившим (дополнительно к очкам за выживание)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>CivilKillCivil</string>
+    <Info>
+      <Description>Повстанцам за повешение повстанца (только тем, кто против него голосовал)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>CivilKillCom</string>
+    <Info>
+      <Description>Повстанцам за повешение Мейса Винду (только тем, кто против него голосовал) (прибавляется к очкам за повешение повстанца)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>CivilKillMaf</string>
+    <Info>
+      <Description>Повстанцам за повешение штурмовика (только тем, кто против него голосовал)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>ComKillMaf</string>
+    <Info>
+      <Description>Мейсу Винду/Рей/Хану Соло/Оби-Вану за убийство/вычисление штурмовика</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>ComKillCivil</string>
+    <Info>
+      <Description>Мейсу Винду/Хану Соло/Оби-Вану за убийство повстанца</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>SheriffKillCom</string>
+    <Info>
+      <Description>Хану Соло/Оби-Вану за убийство Мейса Винду (прибавляется к очкам за убийство повстанца)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>MafKill</string>
+    <Info>
+      <Description>Штурмовикам за любое убийство</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>MafKillCom</string>
+    <Info>
+      <Description>Штурмовикам, Дарту Вейдеру за убийство Мейса Винду (складывается с очками за любое убийство)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>LawyerCheckCom</string>
+    <Info>
+      <Description>Адвокату за вычисление Мейса Винду</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>WenchBlockCom</string>
+    <Info>
+      <Description>Чубакке за блокировку Мейса Винду</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>WenchBlockMaf</string>
+    <Info>
+      <Description>Чубакке за блокировку штурмовика</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>DocHealCivil</string>
+    <Info>
+      <Description>Медицинскому дроиду за спасение повстанца</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>DocHealCom</string>
+    <Info>
+      <Description>Медицинскому дроиду за спасение Мейса Винду (прибавляется к очкам за спасение повстанца)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>DocHealMaf</string>
+    <Info>
+      <Description>Медицинскому дроиду за спасение штурмовика</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>JudgeJustifyCivil</string>
+    <Info>
+      <Description>Падме за оправдание повстанца</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>JudgeJustifyCom</string>
+    <Info>
+      <Description>Падме за оправдание Мейса Винду (прибавляется к очкам за оправдание повстанца)</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>JudgeJustifyMaf</string>
+    <Info>
+      <Description>Падме за оправдание штурмовика</Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>NeutralKill</string>
+    <Info>
+      <Description>Нейтральному персонажу за каждое убийство</Description>
+    </Info>
+  </Item>
+</Messages>

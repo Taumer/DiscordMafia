@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Item>
+    <string>Mask</string>
+    <Info>
+      <Name>Сокрытие Силы</Name>
+      <NameCases>
+        <string>cокрытие Силы</string>
+        <string>cокрытия Силы</string>
+        <string>cокрытию Силы</string>
+        <string>cокрытие Силы</string>
+        <string>cокрытием Силы</string>
+        <string>cокрытии Силы</string>
+      </NameCases>
+      <Description><![CDATA[Применяя <b>сокрытие Силы</b>, игрок в ближайшую ночь избегает встречи с персонажами. Т.е. штурмовик не убьет, Мейс Винду не проверит, Чубакка не заблокирует. Можно применить только 1 раз за игру.]]></Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>AntiMask</string>
+    <Info>
+      <Name>Просвещение Силы</Name>
+      <NameCases>
+        <string>просвещение Силы</string>
+        <string>просвещения Силы</string>
+        <string>просвещению Силы</string>
+        <string>просвещение Силы</string>
+        <string>просвещением Силы</string>
+        <string>просвещении Силы</string>
+      </NameCases>
+      <Description><![CDATA[Применяя <b>просвещение Силы</b>, игрок получает способность видеть персонажей со способностью к сокрытию. Таким образом, <b>просвещение Силы</b> является контрспособностью <b>сокрытию Силы</b>, маскирующимся ролям (R2D2). Способность может отменить действие только одной способности/роли, потом пропадает. Действует всю игру.]]></Description>
+    </Info>
+  </Item>
+  <Item>
+    <string>Antidote</string>
+    <Info>
+      <Name>Исцеление Силы</Name>
+      <NameCases>
+        <string>исцеление Силы</string>
+        <string>исцеления Силы</string>
+        <string>исцелению Силы</string>
+        <string>исцеление Силы</string>
+        <string>исцелением Силы</string>
+        <string>исцелении Силы</string>
+      </NameCases>
+      <Description><![CDATA[Применяя <b>исцеление Силы</b>, игрок в ближайшую ночь снимает с себя все эффекты, ведущие к отложенной смерти (например, отравление Чубакки).]]></Description>
+    </Info>
+  </Item>
+</Messages>

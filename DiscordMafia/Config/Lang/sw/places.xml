@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Item>
+    <string>House</string>
+    <Info>
+      <Name>Алдераан</Name>
+    </Info>
+  </Item>
+  <Item>
+    <string>Supermarket</string>
+    <Info>
+      <Name>Балосар</Name>
+    </Info>
+  </Item>
+  <Item>
+    <string>Stadium</string>
+    <Info>
+      <Name>Паланхи</Name>
+    </Info>
+  </Item>
+</Messages>
