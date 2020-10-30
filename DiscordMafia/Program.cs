@@ -99,7 +99,7 @@ namespace DiscordMafia
             clientWrapper.MainClient.MessageReceived += HandleCommand;
             // Discover all of the commands in this assembly and load them.
             var wrapper = new CommandsServiceLocalizer();
-            await wrapper.AddModulesAsync(Settings, commands, Assembly.GetEntryAssembly());
+            await wrapper.AddModulesAsync(Settings, commands, Assembly.GetEntryAssembly(), services);
         }
 
         public async Task HandleCommand(SocketMessage messageParam)

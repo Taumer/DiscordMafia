@@ -21,15 +21,15 @@ namespace DiscordMafia
         private readonly SemaphoreSlim _lock = new SemaphoreSlim(1, 1);
         private static readonly TypeInfo _moduleTypeInfo = typeof(ModuleBase).GetTypeInfo();
 
-        public async Task AddModulesAsync(MainSettings settings, CommandService service, Assembly assembly)
+        public async Task AddModulesAsync(MainSettings settings, CommandService commands, Assembly assembly, IServiceProvider serviceProvider)
         {
             await _lock.WaitAsync().ConfigureAwait(false);
             try
             {
-                var types = await SearchAsync(settings, assembly, service).ConfigureAwait(false);
+                var types = await SearchAsync(settings, assembly, commands).ConfigureAwait(false);
                 foreach (var info in types)
                 {
-                    await service.AddModuleAsync(info.AsType());
+                    await commands.AddModuleAsync(info.AsType(), serviceProvider);
                 }
             }
             finally
