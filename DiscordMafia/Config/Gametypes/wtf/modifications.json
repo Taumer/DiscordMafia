@@ -1,6 +1,6 @@
 [
     {
       "$type": "DiscordMafia.Modifications.AutoShuffle, DiscordMafia",
-      "GameCyclesBeforeShuffle": 3
+      "GameCyclesBeforeShuffle": 2
     }
 ]
