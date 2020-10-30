@@ -12,7 +12,7 @@ namespace DiscordMafia.TypeReaders
 {
     public class InGamePlayerInfoTypeReader : TypeReader
     {
-        public override async Task<TypeReaderResult> Read(ICommandContext context, string input, IServiceProvider services)
+        public override async Task<TypeReaderResult> ReadAsync(ICommandContext context, string input, IServiceProvider services)
         {
             var game = services.GetService(typeof(Game)) as Game;
             var results = new Dictionary<ulong, TypeReaderValue>();

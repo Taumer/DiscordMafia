@@ -18,7 +18,7 @@ namespace DiscordMafia.Preconditions
             }
         }
 
-        public override async Task<PreconditionResult> CheckPermissions(ICommandContext context, CommandInfo command, IServiceProvider services)
+        public override async Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
             return await Task.Run(() =>
             {

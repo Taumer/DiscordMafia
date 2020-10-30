@@ -29,7 +29,7 @@ namespace DiscordMafia
                 var types = await SearchAsync(settings, assembly, service).ConfigureAwait(false);
                 foreach (var info in types)
                 {
-                    await service.AddModuleAsync(info.AsType());
+                    await service.AddModuleAsync(info.AsType(), null);
                 }
             }
             finally
