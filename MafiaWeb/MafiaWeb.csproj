@@ -52,7 +52,7 @@
     </None>
   </ItemGroup>
 
-  <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
+  <Target Name="PrepublishScript" BeforeTargets="Build">
     <Exec Command="bower install" />
   </Target>
 </Project>
