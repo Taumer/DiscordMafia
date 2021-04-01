@@ -246,3 +246,6 @@ ModelManifest.xml
 
 # IntelliJ IDEA/Rider project settings
 .idea/
+
+# VSCode project settings
+.vscode/

@@ -2,6 +2,6 @@
 <Settings>
   <IsYakuzaEnabled>False</IsYakuzaEnabled>
   <MafPercent>34</MafPercent>
-  <MinPlayers>6</MinPlayers>
+  <MinPlayers>3</MinPlayers>
   <Nickname>The Force</Nickname>
 </Settings>
