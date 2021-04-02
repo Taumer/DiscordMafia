@@ -34,7 +34,7 @@ jobs:
       run: dotnet publish --no-restore -c Release -o ${{ github.workspace }}/publish
 
   acrhive:
-    need: build
+    needs: build
     steps:
     - name: Create archive
       uses: TheDoctor0/zip-release@0.4.1
@@ -43,7 +43,7 @@ jobs:
         filename: DiscordMafia.zip
 
   release:
-    need: acrhive
+    needs: acrhive
     steps:
     - name: Release
       uses: softprops/action-gh-release@v1
