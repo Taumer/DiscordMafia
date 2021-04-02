@@ -31,7 +31,9 @@ jobs:
           context: .
           target: bot
           push: true
-          tags: taumer943/mafia-bot
+          tags: |
+            taumer943/mafia-bot:${{ GITHUB_SHA }}
+            taumer943/mafia-bot:latest
 
       - name: Build mafia
         uses: docker/build-push-action@v2
@@ -40,4 +42,6 @@ jobs:
           context: .
           target: web
           push: true
-          tags: taumer943/mafia-web
+          tags: |
+            taumer943/mafia-web:${{ GITHUB_SHA }}
+            taumer943/mafia-web:latest
