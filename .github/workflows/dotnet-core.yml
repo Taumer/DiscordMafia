@@ -50,7 +50,6 @@ jobs:
         name: artifacts
 
     - name: Create archive
-      need: build
       uses: TheDoctor0/zip-release@0.4.1
       with: 
         path: artifacts/*
