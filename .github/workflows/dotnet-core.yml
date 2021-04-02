@@ -33,16 +33,16 @@ jobs:
     - name: Publish
       run: dotnet publish --no-restore -c Release -o ${{ github.workspace }}/publish
 
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v2.2.0
+    - name: Create archive
+      uses: TheDoctor0/zip-release@0.4.1
       with: 
-        name: DiscordMafia
         path: ${{ github.workspace }}/publish
+        filename: DiscordMafia.zip
 
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: release
+        tag_name: latest
         files: DiscordMafia.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
