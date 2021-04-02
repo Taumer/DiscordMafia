@@ -65,8 +65,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       env:
         SHA: ${{ steps.short-sha.outputs.sha }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
         tag_name: ${{ env.SHA }}
         files: DiscordMafia.zip
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
