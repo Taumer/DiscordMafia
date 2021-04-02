@@ -58,8 +58,8 @@ jobs:
     - name: Get SHA hash
       uses: benjlevesque/short-sha@v1.2
       id: short-sha
-        with:
-          length: 7
+      with:
+        length: 7
 
     - name: release
       uses: softprops/action-gh-release@v1
