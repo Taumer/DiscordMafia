@@ -55,12 +55,14 @@ jobs:
         path: .
         filename: DiscordMafia.zip
 
-    - name: release
-      uses: softprops/action-gh-release@v1
+    - name: Get SHA hash
       uses: benjlevesque/short-sha@v1.2
       id: short-sha
         with:
-          length: 6
+          length: 7
+
+    - name: release
+      uses: softprops/action-gh-release@v1
       env:
         SHA: ${{ steps.short-sha.outputs.sha }}
       with:
