@@ -47,7 +47,14 @@ jobs:
     - name: Download artifacts
       uses: actions/download-artifact@v2
       with:
-        name: DiscordMafia
+        name: artifacts
+
+    - name: Create archive
+      need: build
+      uses: TheDoctor0/zip-release@0.4.1
+      with: 
+        path: artifacts/*
+        filename: DiscordMafia.zip
 
     - name: Release
       uses: softprops/action-gh-release@v1
