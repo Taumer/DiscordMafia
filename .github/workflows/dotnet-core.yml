@@ -1,22 +1,21 @@
-name: .NET Core
+name: Build binaries
 
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+    
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.1.2
       with:
         node-version: 14.15.x
+    
     - name: Install bower
       run: npm install -g bower
 
@@ -24,10 +23,13 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 2.1.x
+    
     - name: Install dependencies
       run: dotnet restore
+    
     - name: Build
       run: dotnet build --no-restore
+    
     - name: Publish
       run: dotnet publish --no-restore -c Release -o ${{ github.workspace }}/publish
 
@@ -36,3 +38,10 @@ jobs:
       with: 
         name: DiscordMafia
         path: ${{ github.workspace }}/publish
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: DiscordMafia.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
