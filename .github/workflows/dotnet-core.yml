@@ -52,7 +52,7 @@ jobs:
     - name: Create archive
       uses: TheDoctor0/zip-release@0.4.1
       with: 
-        path: DiscordMafia
+        path: .
         filename: DiscordMafia.zip
 
     - name: Release
