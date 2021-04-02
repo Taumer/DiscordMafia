@@ -55,10 +55,18 @@ jobs:
         path: .
         filename: DiscordMafia.zip
 
-    - name: Release
-      uses: softprops/action-gh-release@v1
+    - name: Get SHA hash
+      uses: benjlevesque/short-sha@v1.2
+      id: short-sha
       with:
-        tag_name: ${{ GITHUB_SHA }}
+        length: 7
+
+    - name: release
+      uses: softprops/action-gh-release@v1
+      env:
+        SHA: ${{ steps.short-sha.outputs.sha }}
+      with:
+        tag_name: ${{ env.SHA }}
         files: DiscordMafia.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

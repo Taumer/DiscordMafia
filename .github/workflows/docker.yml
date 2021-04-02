@@ -24,24 +24,34 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - name: Get SHA hash
+        uses: benjlevesque/short-sha@v1.2
+        id: short-sha
+        with:
+          length: 7
+
       - name: Build bot
         uses: docker/build-push-action@v2
+        env:
+          SHA: ${{ steps.short-sha.outputs.sha }}
         with:
           builder: ${{ steps.builder-bot.outputs.name }}
           context: .
           target: bot
           push: true
           tags: |
-            taumer943/mafia-bot:${{ GITHUB_SHA }}
+            taumer943/mafia-bot:${{ env.SHA }}
             taumer943/mafia-bot:latest
 
       - name: Build mafia
         uses: docker/build-push-action@v2
+        env:
+          SHA: ${{ steps.short-sha.outputs.sha }}
         with:
           builder: ${{ steps.builder-web.outputs.name }}
           context: .
           target: web
           push: true
           tags: |
-            taumer943/mafia-web:${{ GITHUB_SHA }}
+            taumer943/mafia-web:${{ env.SHA }}
             taumer943/mafia-web:latest
