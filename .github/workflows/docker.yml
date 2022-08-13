@@ -10,16 +10,19 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - uses: docker/setup-buildx-action@v1
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - uses: docker/setup-buildx-action@v2
         id: builder-bot
 
-      - uses: docker/setup-buildx-action@v1
+      - uses: docker/setup-buildx-action@v2
         id: builder-web
 
       - name: Login to DockerHub
-        uses: docker/login-action@v1 
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
@@ -31,25 +34,27 @@ jobs:
           length: 7
 
       - name: Build bot
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v3.1.1
         env:
           SHA: ${{ steps.short-sha.outputs.sha }}
         with:
           builder: ${{ steps.builder-bot.outputs.name }}
           context: .
+          platforms: linux/amd64,linux/arm64
           target: bot
           push: true
           tags: |
             taumer943/mafia-bot:${{ env.SHA }}
             taumer943/mafia-bot:latest
 
-      - name: Build mafia
-        uses: docker/build-push-action@v2
+      - name: Build web
+        uses: docker/build-push-action@v3.1.1
         env:
           SHA: ${{ steps.short-sha.outputs.sha }}
         with:
           builder: ${{ steps.builder-web.outputs.name }}
           context: .
+          platforms: linux/amd64,linux/arm64
           target: web
           push: true
           tags: |
