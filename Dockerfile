@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:3.1-alpine AS build-env
+FROM --platform=amd64 mcr.microsoft.com/dotnet/sdk:3.1-alpine AS build-env
 RUN apk --update add nodejs npm git
 RUN npm install -g bower
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
