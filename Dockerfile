@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build-env
-RUN apt install nodejs npm
+RUN apt-get install -y nodejs npm
 RUN npm install -g bower
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
 COPY . /opt/sources
