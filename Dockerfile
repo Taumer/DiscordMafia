@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:3.1-alpine AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:3.1-alpine-$TARGETPLATFORM AS build-env
 RUN apk --update add nodejs npm git
 RUN npm install -g bower
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
@@ -8,12 +8,12 @@ RUN dotnet restore
 RUN dotnet build
 RUN dotnet publish -c Release -o out
 
-FROM --platform=$TARGETPLATFORM mcr.microsoft.com/dotnet/runtime:3.1-alpine as bot
+FROM mcr.microsoft.com/dotnet/runtime:3.1-alpine-$TARGETPLATFORM as bot
 COPY --from=build-env /opt/sources/out /app
 WORKDIR /app
 ENTRYPOINT ["dotnet", "DiscordMafia.dll"]
 
-FROM --platform=$TARGETPLATFORM mcr.microsoft.com/dotnet/aspnet:3.1-alpine as web
+FROM mcr.microsoft.com/dotnet/aspnet:3.1-alpine-$TARGETPLATFORM as web
 COPY --from=build-env /opt/sources/out /app
 WORKDIR /app
 ENTRYPOINT ["dotnet", "MafiaWeb.dll"]
