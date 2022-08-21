@@ -41,7 +41,9 @@ namespace MafiaWeb
             // Add framework services.
             services.AddCloudscribeNavigation(Configuration.GetSection("NavigationOptions"));
             services.AddRazorPages()
-                    .AddMvcOptions(options => options.EnableEndpointRouting = false);
+                    .AddRazorRuntimeCompilation()
+                    .AddMvcOptions(options => options.EnableEndpointRouting = false)
+                    .AddViewLocalization();
             services.AddMvcGrid();
 
             var dirSection = Configuration.GetSection("Directories");
