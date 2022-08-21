@@ -1,5 +1,5 @@
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build-env
-RUN apt update -qq && apt-get install -y -qq nodejs npm
+FROM mcr.microsoft.com/dotnet/sdk:3.1-alpine AS build-env
+RUN apk --update add nodejs npm git
 RUN npm install -g bower
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
 COPY . /opt/sources
