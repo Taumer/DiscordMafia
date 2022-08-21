@@ -40,11 +40,7 @@ namespace MafiaWeb
 
             // Add framework services.
             services.AddCloudscribeNavigation(Configuration.GetSection("NavigationOptions"));
-            services.AddMvc()
-                .AddRazorOptions(options =>
-                {
-                    options.AddCloudscribeNavigationBootstrap3Views();
-                });
+            services.AddRazorPages();
             services.AddMvcGrid();
 
             var dirSection = Configuration.GetSection("Directories");
