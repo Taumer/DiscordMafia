@@ -59,7 +59,7 @@
                 </tr>
             }
         </tbody>
-        @if (Model.FooterPartialViewName != null)
+        @if (!String.IsNullOrEmpty(Model.FooterPartialViewName))
         {
             <tfoot>
                 @Html.Partial(Model.FooterPartialViewName, Model)
