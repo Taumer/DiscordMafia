@@ -3,7 +3,7 @@
 @model IGrid
 
 <div@(Html.Raw(Model.Name != null ? " id=\"" + Model.Name + "\"" : "")) class="mvc-grid">
-    <table class="table @Model.Attributes[\"class\""]"@Model.Attributes>
+    <table class="table "@Model.Attributes>
         <thead>
             <tr>
                 @foreach (IGridColumn column in Model.Columns)
