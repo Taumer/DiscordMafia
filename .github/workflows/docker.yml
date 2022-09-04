@@ -82,7 +82,6 @@ jobs:
           context: .
           file: ./docker/bot.Dockerfile
           platforms: linux/amd64, linux/arm64
-          target: bot
           push: true
           tags: |
             ghcr.io/taumer/mafia-bot:${{ env.SHA }}
@@ -129,7 +128,6 @@ jobs:
           context: .
           file: ./docker/web.Dockerfile
           platforms: linux/amd64, linux/arm64
-          target: web
           push: true
           tags: |
             ghcr.io/taumer/mafia-web:${{ env.SHA }}
