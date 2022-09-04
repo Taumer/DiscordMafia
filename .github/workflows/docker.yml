@@ -79,8 +79,8 @@ jobs:
           SHA: ${{ steps.short-sha.outputs.sha }}
         with:
           builder: ${{ steps.builder-bot.outputs.name }}
-          context: ./DiscordMafia
-          file: ./DiscordMafia/docker/bot.Dockerfile
+          context: .
+          file: ./docker/bot.Dockerfile
           platforms: linux/amd64, linux/arm64
           target: bot
           push: true
@@ -126,8 +126,8 @@ jobs:
           SHA: ${{ steps.short-sha.outputs.sha }}
         with:
           builder: ${{ steps.builder-web.outputs.name }}
-          context: ./DiscordMafia
-          file: ./DiscordMafia/docker/web.Dockerfile
+          context: .
+          file: ./docker/web.Dockerfile
           platforms: linux/amd64, linux/arm64
           target: web
           push: true
