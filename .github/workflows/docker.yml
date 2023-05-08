@@ -68,7 +68,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get SHA hash
-        uses: benjlevesque/short-sha@v1.2
+        uses: benjlevesque/short-sha@v2.2
         id: short-sha
         with:
           length: 7
@@ -114,7 +114,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get SHA hash
-        uses: benjlevesque/short-sha@v1.2
+        uses: benjlevesque/short-sha@v2.2
         id: short-sha
         with:
           length: 7
