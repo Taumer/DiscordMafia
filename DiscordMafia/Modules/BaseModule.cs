@@ -6,15 +6,18 @@ using System;
 namespace DiscordMafia.Modules
 {
     // TODO Refactor (ChannelExtensions has same code)
-    public class BaseModule: ModuleBase
+    public class BaseModule : ModuleBase
     {
         private const int MaxLength = 1800;
 
-        protected override async Task<IUserMessage> ReplyAsync(string message, bool isTTS = false, Embed embed = null, RequestOptions options = null)
+        protected override async Task<IUserMessage> ReplyAsync(string message = null, bool isTTS = false,
+            Embed embed = null, RequestOptions options = null, AllowedMentions allowedMentions = null,
+            MessageReference messageReference = null, MessageComponent components = null, ISticker[] stickers = null,
+            Embed[] embeds = null)
         {
             if (message.Length <= MaxLength)
             {
-                return await base.ReplyAsync(message, isTTS, embed, options);
+                return await base.ReplyAsync(message, isTTS, embed, options, allowedMentions, messageReference, components, stickers, embeds);
             }
             else
             {
@@ -31,13 +34,16 @@ namespace DiscordMafia.Modules
                         totalLength = 0;
                         tempMessage = "";
                     }
+
                     tempMessage += textPart + Environment.NewLine;
                     totalLength += textPart.Length;
                 }
+
                 if (tempMessage != "")
                 {
                     lastMessage = await base.ReplyAsync(tempMessage, isTTS, embed, options);
                 }
+
                 return lastMessage;
             }
         }
