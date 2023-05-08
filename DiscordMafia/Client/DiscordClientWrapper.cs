@@ -21,11 +21,16 @@ namespace DiscordMafia.Client
 
         private async Task InitAsync(Func<Task> clientReadyHandler)
         {
-            MainClient = new DiscordSocketClient();
+            var config = new DiscordSocketConfig()
+            {
+                GatewayIntents = GatewayIntents.All
+            };
+
+            MainClient = new DiscordSocketClient(config);
 
             if (!string.IsNullOrWhiteSpace(_settings.AnnouncerToken))
             {
-                AnnouncerClient = new DiscordSocketClient();
+                AnnouncerClient = new DiscordSocketClient(config);
 
                 await AnnouncerClient.LoginAsync(TokenType.Bot, _settings.AnnouncerToken);
                 await AnnouncerClient.StartAsync();
@@ -34,7 +39,7 @@ namespace DiscordMafia.Client
             {
                 AnnouncerClient = MainClient;
             }
-            
+
             MainClient.Ready += clientReadyHandler;
             AnnouncerClient.Ready += SetAnnouncerChannels;
 

@@ -32,7 +32,8 @@ namespace DiscordMafia.DB
             }
 #if DEBUG
             optionsBuilder.EnableSensitiveDataLogging();
-            optionsBuilder.UseLoggerFactory((new LoggerFactory()).AddConsole());
+            var loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
+            optionsBuilder.UseLoggerFactory(loggerFactory);
 #endif
         }
 
