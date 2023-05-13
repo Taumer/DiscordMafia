@@ -20,7 +20,7 @@ namespace MafiaWeb.Controllers
         public IActionResult List(ulong? userId = null)
         {
             ViewData["Title"] = "Игры";
-            IQueryable<Game> games = dbContext.Games.OrderByDescending(g => g.FinishedAtInt);
+            IQueryable<Game> games = dbContext.Games.AsQueryable().OrderByDescending(g => g.FinishedAtInt);
             if (userId != null)
             {
                 var user = dbContext.Users.SingleOrDefault(u => u.Id == userId);

@@ -77,7 +77,7 @@ namespace DiscordMafia.Achievement
                 var achievement = AllowedAchievements[achievementId];
                 using (var gameContext = new GameContext())
                 {
-                    var dbAchievement = gameContext.Achievements
+                    var dbAchievement = gameContext.Achievements.AsQueryable()
                         .Where(a => a.UserId == user.Id).SingleOrDefault(a => a.AchievementId == achievementId);
                     
                     if (dbAchievement == null)

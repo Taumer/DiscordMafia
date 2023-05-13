@@ -18,7 +18,7 @@ namespace MafiaWeb.Controllers
 
         public IActionResult Index()
         {
-            return View(dbContext.Users.OrderByDescending(model => model.Rate));
+            return View(dbContext.Users.AsQueryable().OrderByDescending(model => model.Rate));
         }
 
         public IActionResult Error()
