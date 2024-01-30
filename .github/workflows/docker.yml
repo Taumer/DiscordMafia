@@ -34,7 +34,7 @@ jobs:
       run: dotnet publish --no-restore -c Release -o ${{ github.workspace }}/publish
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v4.2.0
+      uses: actions/upload-artifact@v4.3.0
       with: 
         name: DiscordMafia
         path: |
