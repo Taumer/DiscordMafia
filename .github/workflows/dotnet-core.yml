@@ -56,7 +56,7 @@ jobs:
         filename: DiscordMafia.zip
 
     - name: Get SHA hash
-      uses: benjlevesque/short-sha@v2.2
+      uses: benjlevesque/short-sha@v3.0
       id: short-sha
       with:
         length: 7
