@@ -74,7 +74,7 @@ jobs:
           length: 7
 
       - name: Build bot
-        uses: docker/build-push-action@v6.2.0
+        uses: docker/build-push-action@v6.3.0
         env:
           SHA: ${{ steps.short-sha.outputs.sha }}
         with:
@@ -120,7 +120,7 @@ jobs:
           length: 7
 
       - name: Build and upload image
-        uses: docker/build-push-action@v6.2.0
+        uses: docker/build-push-action@v6.3.0
         env:
           SHA: ${{ steps.short-sha.outputs.sha }}
         with:
