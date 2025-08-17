@@ -139,18 +139,16 @@ jobs:
       packages: write
       contents: read
     steps:
-      - name: Cleanup mafia-bot images older than 30 days
+      - name: Cleanup mafia-bot images
         uses: actions/delete-package-versions@v5
         with:
           package-name: "mafia-bot"
           package-type: "container"
-          delete-older-than-days: 30
           min-versions-to-keep: 5
 
-      - name: Cleanup mafia-web images older than 30 days
+      - name: Cleanup mafia-web images
         uses: actions/delete-package-versions@v5
         with:
           package-name: "mafia-web"
           package-type: "container"
-          delete-older-than-days: 30
           min-versions-to-keep: 5
