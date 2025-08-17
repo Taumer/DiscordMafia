@@ -132,3 +132,25 @@ jobs:
           tags: |
             ghcr.io/taumer/mafia-web:${{ env.SHA }}
             ghcr.io/taumer/mafia-web:latest
+
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - name: Cleanup mafia-bot images older than 30 days
+        uses: actions/delete-package-versions@v5
+        with:
+          package-name: "mafia-bot"
+          package-type: "container"
+          delete-older-than-days: 30
+          min-versions-to-keep: 5
+
+      - name: Cleanup mafia-web images older than 30 days
+        uses: actions/delete-package-versions@v5
+        with:
+          package-name: "mafia-web"
+          package-type: "container"
+          delete-older-than-days: 30
+          min-versions-to-keep: 5
