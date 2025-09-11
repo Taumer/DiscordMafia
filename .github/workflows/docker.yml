@@ -132,23 +132,3 @@ jobs:
           tags: |
             ghcr.io/taumer/mafia-web:${{ env.SHA }}
             ghcr.io/taumer/mafia-web:latest
-
-  cleanup:
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
-    steps:
-      - name: Cleanup mafia-bot images
-        uses: actions/delete-package-versions@v5
-        with:
-          package-name: "mafia-bot"
-          package-type: "container"
-          min-versions-to-keep: 5
-
-      - name: Cleanup mafia-web images
-        uses: actions/delete-package-versions@v5
-        with:
-          package-name: "mafia-web"
-          package-type: "container"
-          min-versions-to-keep: 5
